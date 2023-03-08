@@ -7,6 +7,7 @@ FactoryBot.define do
         end
 
         name { Faker::Name.name } # { } used for dinamic attributes
+        address { Faker::Address.street_address }
         # email { Faker::Internet.email }
 
         sequence(:email) { |n| "my_email-#{n}@email.com" } # we can force a start number like "sequence(:email, 35)", or sequence like "...(:email, 'a')"

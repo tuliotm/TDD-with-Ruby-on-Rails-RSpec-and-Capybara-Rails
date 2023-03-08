@@ -6,8 +6,6 @@ RSpec.describe Customer, type: :model do
     customer = create(:customer, name: "Tulio Manso") # forcing the name that i want # "create" creat the data in database
     customer = build(:customer, name: "Tulio Manso") # "build" just use the instance class "custumer" and dont save it on database
     customer1 = create(:customer, name: "Tulio Manso") # forcing the name that i want # "create" creat the data in database
-    puts customer.email
-    puts customer1.email
     expect(customer.full_name).to eq("Sr. Tulio Manso")
   end
 
