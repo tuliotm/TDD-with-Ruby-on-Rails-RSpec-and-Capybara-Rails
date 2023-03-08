@@ -28,7 +28,7 @@ RSpec.describe Customer, type: :model do
     expect(customer.full_name).to start_with("Sr. ")
   end
 
-  it 'Using the attributes_for' do
+  it 'Using the attributes_for' do # attributes_for brings all attributes that are in the method we want
     attrs = attributes_for(:customer)
     attrs1 = attributes_for(:customer_vip)
     attrs2 = attributes_for(:customer_default)
@@ -41,6 +41,11 @@ RSpec.describe Customer, type: :model do
     attrs = attributes_for(:customer)
     customer = Customer.create(attrs)
     expect(customer.full_name).to start_with("Sr. ")
+  end
+
+  it 'Transient Attribute' do
+    customer = create(:customer_default, upcased: true)
+    expect(customer.name.upcase).to eq(customer.name)
   end
 
   it { expect{ create(:customer) }.to change{Customer.all.size}.by(1) }
