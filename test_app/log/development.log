@@ -594,3 +594,227 @@ FOREIGN KEY ("customer_id")
             FROM sqlite_temp_master
             WHERE name='index_orders_on_customer_id' AND type='index'
 [0m
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+upcased { false }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (3 levels) in <top (required)> at /home/tuliotm/Fractal/TDD-with-Ruby-on-Rails-RSpec-and-Capybara-Rails/test_app/spec/factories/customer.rb:5)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+qtt_orders { 3 }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (3 levels) in <top (required)> at /home/tuliotm/Fractal/TDD-with-Ruby-on-Rails-RSpec-and-Capybara-Rails/test_app/spec/factories/customer.rb:6)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+gender { "M" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (3 levels) in <top (required)> at /home/tuliotm/Fractal/TDD-with-Ruby-on-Rails-RSpec-and-Capybara-Rails/test_app/spec/factories/customer.rb:16)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+gender { "F" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (3 levels) in <top (required)> at /home/tuliotm/Fractal/TDD-with-Ruby-on-Rails-RSpec-and-Capybara-Rails/test_app/spec/factories/customer.rb:20)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+vip { true }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (3 levels) in <top (required)> at /home/tuliotm/Fractal/TDD-with-Ruby-on-Rails-RSpec-and-Capybara-Rails/test_app/spec/factories/customer.rb:24)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+days_to_pay { 30 }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (3 levels) in <top (required)> at /home/tuliotm/Fractal/TDD-with-Ruby-on-Rails-RSpec-and-Capybara-Rails/test_app/spec/factories/customer.rb:25)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+vip { false }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (3 levels) in <top (required)> at /home/tuliotm/Fractal/TDD-with-Ruby-on-Rails-RSpec-and-Capybara-Rails/test_app/spec/factories/customer.rb:29)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+days_to_pay { 15 }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (3 levels) in <top (required)> at /home/tuliotm/Fractal/TDD-with-Ruby-on-Rails-RSpec-and-Capybara-Rails/test_app/spec/factories/customer.rb:30)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+upcased { false }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (3 levels) in <top (required)> at /home/tuliotm/Fractal/TDD-with-Ruby-on-Rails-RSpec-and-Capybara-Rails/test_app/spec/factories/customer.rb:5)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+qtt_orders { 3 }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (3 levels) in <top (required)> at /home/tuliotm/Fractal/TDD-with-Ruby-on-Rails-RSpec-and-Capybara-Rails/test_app/spec/factories/customer.rb:6)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+gender { "M" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (3 levels) in <top (required)> at /home/tuliotm/Fractal/TDD-with-Ruby-on-Rails-RSpec-and-Capybara-Rails/test_app/spec/factories/customer.rb:16)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+gender { "F" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (3 levels) in <top (required)> at /home/tuliotm/Fractal/TDD-with-Ruby-on-Rails-RSpec-and-Capybara-Rails/test_app/spec/factories/customer.rb:20)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+vip { true }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (3 levels) in <top (required)> at /home/tuliotm/Fractal/TDD-with-Ruby-on-Rails-RSpec-and-Capybara-Rails/test_app/spec/factories/customer.rb:24)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+days_to_pay { 30 }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (3 levels) in <top (required)> at /home/tuliotm/Fractal/TDD-with-Ruby-on-Rails-RSpec-and-Capybara-Rails/test_app/spec/factories/customer.rb:25)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+vip { false }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (3 levels) in <top (required)> at /home/tuliotm/Fractal/TDD-with-Ruby-on-Rails-RSpec-and-Capybara-Rails/test_app/spec/factories/customer.rb:29)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+days_to_pay { 15 }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (3 levels) in <top (required)> at /home/tuliotm/Fractal/TDD-with-Ruby-on-Rails-RSpec-and-Capybara-Rails/test_app/spec/factories/customer.rb:30)
