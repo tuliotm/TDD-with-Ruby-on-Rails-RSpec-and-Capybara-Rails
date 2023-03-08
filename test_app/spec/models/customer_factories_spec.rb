@@ -32,9 +32,9 @@ RSpec.describe Customer, type: :model do
     attrs = attributes_for(:customer)
     attrs1 = attributes_for(:customer_vip)
     attrs2 = attributes_for(:customer_default)
-    puts attrs
-    puts attrs1
-    puts attrs2
+    # puts attrs
+    # puts attrs1
+    # puts attrs2
   end
 
   it 'Using the attributes_for' do
@@ -46,6 +46,22 @@ RSpec.describe Customer, type: :model do
   it 'Transient Attribute' do
     customer = create(:customer_default, upcased: true)
     expect(customer.name.upcase).to eq(customer.name)
+  end
+
+  it 'Vip Male Client' do
+    customer = create(:customer_male_vip)
+    expect(customer.gender).to eq('M')
+    expect(customer.vip).to eq(true)
+  end
+
+  it 'Default Male Client' do
+    customer = create(:customer_male_default)
+    expect(customer.gender).to eq('M')
+  end
+  
+  it 'Default Female Client' do
+    customer = create(:customer_female_default)
+    expect(customer.gender).to eq('F')
   end
 
   it { expect{ create(:customer) }.to change{Customer.all.size}.by(1) }
