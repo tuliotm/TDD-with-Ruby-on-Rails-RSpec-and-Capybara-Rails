@@ -7440,3 +7440,18 @@ rubocop \
   --auto-correct
 
  (called from block (2 levels) in <top (required)> at /home/tuliotm/Fractal/TDD-with-Ruby-on-Rails-RSpec-and-Capybara-Rails/test_app/spec/factories/products.rb:4)
+Started GET "/" for ::1 at 2023-03-09 18:04:48 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tuliotm/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tuliotm/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (4.5ms)
+Completed 200 OK in 15ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customers" for ::1 at 2023-03-09 18:04:56 -0300
+Processing by CustomersController#index as HTML
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (1.7ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered customers/index.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 432ms (Views: 404.5ms | ActiveRecord: 1.9ms)
+
+
