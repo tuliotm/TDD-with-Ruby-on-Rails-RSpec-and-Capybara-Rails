@@ -1,0 +1,80 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: "<API-URL>"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 09 Mar 2023 11:53:23 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - Express
+      X-Ratelimit-Limit:
+      - '1000'
+      X-Ratelimit-Remaining:
+      - '998'
+      X-Ratelimit-Reset:
+      - '1678243264'
+      Vary:
+      - Origin, Accept-Encoding
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Cache-Control:
+      - max-age=43200
+      Pragma:
+      - no-cache
+      Expires:
+      - "-1"
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"11b-USacuIw5a/iXAGdNKBvqr/TbMTc"
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - HIT
+      Age:
+      - '778'
+      Server-Timing:
+      - cf-q-config;dur=6.9999996412662e-06
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=GCMJpU4ZG9bgBGWDpi%2FA7qc47UnTbgkIG6AWe11u9j%2F9BGVGnGV%2FEPsrGXcco8pfLlHudNTegW92gkhiFyiZlrNUFok1EYgMV0SG7kGnVC3oaHLcH6VwpehLwJq%2F%2BYDuMAnkubvHm1rsQJEFPtgL"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7a531e02bbf003cb-GIG
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "userId": 1,
+          "id": 3,
+          "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+          "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+        }
+    http_version: 
+  recorded_at: Thu, 09 Mar 2023 11:53:23 GMT
+recorded_with: VCR 4.0.0
