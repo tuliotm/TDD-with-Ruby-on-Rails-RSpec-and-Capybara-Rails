@@ -19,7 +19,159 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 09 Mar 2023 11:53:23 GMT
+      - Thu, 09 Mar 2023 11:58:42 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - Express
+      X-Ratelimit-Limit:
+      - '1000'
+      X-Ratelimit-Remaining:
+      - '999'
+      X-Ratelimit-Reset:
+      - '1678243264'
+      Vary:
+      - Origin, Accept-Encoding
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Cache-Control:
+      - max-age=43200
+      Pragma:
+      - no-cache
+      Expires:
+      - "-1"
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"116-jnDuMpjju89+9j7e0BqkdFsVRjs"
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - HIT
+      Age:
+      - '27314'
+      Server-Timing:
+      - cf-q-config;dur=6.9999987317715e-06
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Mtg6Yn%2BIyCyW13IcqlB9We3MBq89%2BEU9fbel%2Fdwb9CY%2BnejKuJ1pYyOrZmSffwZpbO1M%2FYaUe80KKtoOi1xcsGM6yP78Km4sOV0BfAxKes5%2FD30gp9DiLd%2BO2WgfHCnrrvd%2FG71iN1fDXZxZ7Vmu"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7a5325ce4bfd2630-GIG
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "userId": 1,
+          "id": 2,
+          "title": "qui est esse",
+          "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+        }
+    http_version: 
+  recorded_at: Thu, 09 Mar 2023 11:58:42 GMT
+- request:
+    method: get
+    uri: "<API-URL>"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 09 Mar 2023 12:00:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - Express
+      X-Ratelimit-Limit:
+      - '1000'
+      X-Ratelimit-Remaining:
+      - '997'
+      X-Ratelimit-Reset:
+      - '1678269844'
+      Vary:
+      - Origin, Accept-Encoding
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Cache-Control:
+      - max-age=43200
+      Pragma:
+      - no-cache
+      Expires:
+      - "-1"
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"10e-HqG77o1RAmatkSwR36f4+Io6g1E"
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - REVALIDATED
+      Server-Timing:
+      - cf-q-config;dur=8.0000008892966e-06
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Gn9qRDpPiSMD2nsK1NkXoz%2FIfKMeFgPHuvHwBZmr%2FIfkmpdOoosXiqOdNXrJw9w%2F3l8GkHMaQ%2FHngsR%2BE3kBQOeHWO6R9P0L2d3SdUgvW0Z6XD3VvpxvtSONSXstuv0xL0IWTdUJPoDaa9BUYb2h"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7a5327fa5da225eb-GIG
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "userId": 1,
+          "id": 4,
+          "title": "eum et est occaecati",
+          "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
+        }
+    http_version: 
+  recorded_at: Thu, 09 Mar 2023 12:00:12 GMT
+- request:
+    method: get
+    uri: https://jsonplaceholder.typicode.com/posts/3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 09 Mar 2023 12:01:02 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -53,17 +205,17 @@ http_interactions:
       Cf-Cache-Status:
       - HIT
       Age:
-      - '778'
+      - '1237'
       Server-Timing:
-      - cf-q-config;dur=6.9999996412662e-06
+      - cf-q-config;dur=7.0000005507609e-06
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=GCMJpU4ZG9bgBGWDpi%2FA7qc47UnTbgkIG6AWe11u9j%2F9BGVGnGV%2FEPsrGXcco8pfLlHudNTegW92gkhiFyiZlrNUFok1EYgMV0SG7kGnVC3oaHLcH6VwpehLwJq%2F%2BYDuMAnkubvHm1rsQJEFPtgL"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zyFkj%2BHuKRCOsrRMqh7J%2Bc9a3nxMJnolRBCHUncSBX0XUBTlYiaJ1XHKn7GgC9TuNcdEm4MHR2FkR9lz0Be6KxQWtL86m%2BATiYtoCEhdbPDQlWxauItsKyJ%2FldI5r29K4S4369kcDM1GGkaDSWTX"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 7a531e02bbf003cb-GIG
+      - 7a5329342c771176-GIG
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
@@ -76,5 +228,82 @@ http_interactions:
           "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
         }
     http_version: 
-  recorded_at: Thu, 09 Mar 2023 11:53:23 GMT
+  recorded_at: Thu, 09 Mar 2023 12:01:02 GMT
+- request:
+    method: get
+    uri: https://jsonplaceholder.typicode.com/posts/4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 09 Mar 2023 12:02:02 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - Express
+      X-Ratelimit-Limit:
+      - '1000'
+      X-Ratelimit-Remaining:
+      - '997'
+      X-Ratelimit-Reset:
+      - '1678269844'
+      Vary:
+      - Origin, Accept-Encoding
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Cache-Control:
+      - max-age=43200
+      Pragma:
+      - no-cache
+      Expires:
+      - "-1"
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"10e-HqG77o1RAmatkSwR36f4+Io6g1E"
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - HIT
+      Age:
+      - '110'
+      Server-Timing:
+      - cf-q-config;dur=7.9999990703072e-06
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=AA%2FrMivNAVZa%2F0DpBXC4%2FsH2xQIPX%2FxmZ%2Bt%2FgUA2hFcaF8JQxDP6gFCxd3Y08NgCtcZMWXlEOpfJKTyEz3iqGfcqv6kpcXiTODSUw1yzS%2FYEhYjOA8UjX7AAILkZAICLpMAgPyJlyQ1mLk9%2Bih3A"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7a532aae7e251184-GIG
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "userId": 1,
+          "id": 4,
+          "title": "eum et est occaecati",
+          "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
+        }
+    http_version: 
+  recorded_at: Thu, 09 Mar 2023 12:02:02 GMT
 recorded_with: VCR 4.0.0
