@@ -10875,3 +10875,72 @@ Completed 200 OK in 127ms (Views: 124.6ms | ActiveRecord: 0.3ms)
   [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "members" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "vashti_gerhold@heathcote.co"], ["encrypted_password", "$2a$04$L7.3N0iu0Zd2TdR76POZX.5kyye/mZlBuSRksXLSyp2xLd4OEmHFC"], ["created_at", "2023-03-09 20:52:01.469072"], ["updated_at", "2023-03-09 20:52:01.469072"]]
   [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
   [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "categories" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Home"], ["created_at", "2023-03-09 21:02:55.260172"], ["updated_at", "2023-03-09 21:02:55.260172"]]
+  [1m[35m (8.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Sen. Darrel Nikolaus"], ["email", "my_email-1@email.com"], ["address", "643 Jolanda Estates"], ["created_at", "2023-03-09 21:02:55.284957"], ["updated_at", "2023-03-09 21:02:55.284957"]]
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Brittney Raynor"], ["email", "my_email-2@email.com"], ["address", "3301 Tierra Manor"], ["created_at", "2023-03-09 21:02:55.295259"], ["updated_at", "2023-03-09 21:02:55.295259"]]
+  [1m[35m (6.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Order number - 1"], ["customer_id", 299], ["created_at", "2023-03-09 21:02:55.315631"], ["updated_at", "2023-03-09 21:02:55.315631"]]
+  [1m[35m (6.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Order number - 2"], ["customer_id", 299], ["created_at", "2023-03-09 21:02:55.325240"], ["updated_at", "2023-03-09 21:02:55.325240"]]
+  [1m[35m (6.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Order number - 3"], ["customer_id", 299], ["created_at", "2023-03-09 21:02:55.334200"], ["updated_at", "2023-03-09 21:02:55.334200"]]
+  [1m[35m (9.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "gender", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Ellsworth Cartwright"], ["email", "my_email-3@email.com"], ["gender", "M"], ["address", "332 Mitsue Port"], ["created_at", "2023-03-09 21:02:55.346764"], ["updated_at", "2023-03-09 21:02:55.346764"]]
+  [1m[35m (9.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "gender", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Gov. Alvaro Christiansen"], ["email", "my_email-4@email.com"], ["gender", "F"], ["address", "668 Labadie Green"], ["created_at", "2023-03-09 21:02:55.360225"], ["updated_at", "2023-03-09 21:02:55.360225"]]
+  [1m[35m (7.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Mrs. Gerald Schneider"], ["email", "my_email-5@email.com"], ["vip", "t"], ["days_to_pay", 30], ["address", "764 Leonor Cove"], ["created_at", "2023-03-09 21:02:55.370282"], ["updated_at", "2023-03-09 21:02:55.370282"]]
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Ashli Torphy"], ["email", "my_email-6@email.com"], ["vip", "f"], ["days_to_pay", 15], ["address", "83138 Mozelle Cliffs"], ["created_at", "2023-03-09 21:02:55.379285"], ["updated_at", "2023-03-09 21:02:55.379285"]]
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "gender", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Loree Skiles"], ["email", "my_email-7@email.com"], ["vip", "t"], ["days_to_pay", 30], ["gender", "M"], ["address", "6414 Padberg Brook"], ["created_at", "2023-03-09 21:02:55.390407"], ["updated_at", "2023-03-09 21:02:55.390407"]]
+  [1m[35m (6.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "gender", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Lyndon McCullough"], ["email", "my_email-8@email.com"], ["vip", "t"], ["days_to_pay", 30], ["gender", "F"], ["address", "25922 Padberg Spurs"], ["created_at", "2023-03-09 21:02:55.400830"], ["updated_at", "2023-03-09 21:02:55.400830"]]
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "gender", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Mr. Rosamond Wyman"], ["email", "my_email-9@email.com"], ["vip", "f"], ["days_to_pay", 15], ["gender", "M"], ["address", "37752 Trenton Views"], ["created_at", "2023-03-09 21:02:55.410012"], ["updated_at", "2023-03-09 21:02:55.410012"]]
+  [1m[35m (6.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "gender", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Noel Jones JD"], ["email", "my_email-10@email.com"], ["vip", "f"], ["days_to_pay", 15], ["gender", "F"], ["address", "60838 Hermann Cove"], ["created_at", "2023-03-09 21:02:55.419370"], ["updated_at", "2023-03-09 21:02:55.419370"]]
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMember Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "members" WHERE "members"."email" = ? LIMIT ?[0m  [["email", "lacresha_kuphal@homenick.info"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "members" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "lacresha_kuphal@homenick.info"], ["encrypted_password", "$2a$04$4SINHIyCKRurjH/v7U.1jeXJMA4m5JDdmMZ5I6LSH2kaTtag10ejC"], ["created_at", "2023-03-09 21:02:55.443055"], ["updated_at", "2023-03-09 21:02:55.443055"]]
+  [1m[35m (8.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Ilana Larkin"], ["email", "my_email-11@email.com"], ["address", "249 Hyatt Circle"], ["created_at", "2023-03-09 21:02:55.453710"], ["updated_at", "2023-03-09 21:02:55.453710"]]
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Order number - 4"], ["customer_id", 308], ["created_at", "2023-03-09 21:02:55.462307"], ["updated_at", "2023-03-09 21:02:55.462307"]]
+  [1m[35m (9.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "categories" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Home"], ["created_at", "2023-03-09 21:02:55.478795"], ["updated_at", "2023-03-09 21:02:55.478795"]]
+  [1m[35m (8.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "products" ("description", "price", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["description", "Enormous Marble Wallet"], ["price", 70.03], ["category_id", 56], ["created_at", "2023-03-09 21:02:55.490526"], ["updated_at", "2023-03-09 21:02:55.490526"]]
+  [1m[35m (6.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mMember Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "members" WHERE "members"."email" = ? LIMIT ?[0m  [["email", "ed.ziemann@koch.info"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "members" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "ed.ziemann@koch.info"], ["encrypted_password", "$2a$04$rBz8m1Vol0enPVYkfUYqDe.5oJ0fJBAmR.TXvtnZ9rBoDK6eSHyDa"], ["created_at", "2023-03-09 21:02:55.503523"], ["updated_at", "2023-03-09 21:02:55.503523"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
