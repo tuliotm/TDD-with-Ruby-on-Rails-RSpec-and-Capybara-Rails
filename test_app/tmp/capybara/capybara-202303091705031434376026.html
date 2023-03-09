@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TestApp</title>
+    
+
+    <link rel="stylesheet" media="all" href="/assets/application-35729bfbaf9967f119234595ed222f7ab14859f304ab0acc5451afb387f637fa.css" data-turbolinks-track="reload" />
+    <script src="/assets/application-98835501d78e487e12a628fd95010407856ebe4af7379e140cb9eeb30af988cf.js" data-turbolinks-track="reload"></script>
+  </head>
+
+  <body>
+    <p id="notice"></p>
+
+<h1>Customers</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+      <tr>
+        <td>Zackary Schneider JD</td>
+        <td>my_email-1@email.com</td>
+        <td><a href="/customers/1">Show</a></td>
+        <td><a href="/customers/1/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/1">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Gladys Sipes</td>
+        <td>my_email-2@email.com</td>
+        <td><a href="/customers/2">Show</a></td>
+        <td><a href="/customers/2/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/2">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Adell Boehm</td>
+        <td>my_email-3@email.com</td>
+        <td><a href="/customers/3">Show</a></td>
+        <td><a href="/customers/3/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/3">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Elinor Koepp</td>
+        <td>my_email-4@email.com</td>
+        <td><a href="/customers/4">Show</a></td>
+        <td><a href="/customers/4/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/4">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Laure Larkin</td>
+        <td>my_email-5@email.com</td>
+        <td><a href="/customers/5">Show</a></td>
+        <td><a href="/customers/5/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/5">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Louie Greenholt DVM</td>
+        <td>my_email-6@email.com</td>
+        <td><a href="/customers/6">Show</a></td>
+        <td><a href="/customers/6/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/6">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Stephnie Bashirian</td>
+        <td>my_email-7@email.com</td>
+        <td><a href="/customers/7">Show</a></td>
+        <td><a href="/customers/7/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/7">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Mason Leffler</td>
+        <td>my_email-8@email.com</td>
+        <td><a href="/customers/8">Show</a></td>
+        <td><a href="/customers/8/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/8">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Kira Swaniawski</td>
+        <td>my_email-9@email.com</td>
+        <td><a href="/customers/9">Show</a></td>
+        <td><a href="/customers/9/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/9">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Granville Kuhic</td>
+        <td>my_email-10@email.com</td>
+        <td><a href="/customers/10">Show</a></td>
+        <td><a href="/customers/10/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/10">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Cecila Thompson</td>
+        <td>my_email-11@email.com</td>
+        <td><a href="/customers/11">Show</a></td>
+        <td><a href="/customers/11/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/11">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>German Barton</td>
+        <td>my_email-1@email.com</td>
+        <td><a href="/customers/12">Show</a></td>
+        <td><a href="/customers/12/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/12">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Sen. Wendell Littel</td>
+        <td>my_email-2@email.com</td>
+        <td><a href="/customers/13">Show</a></td>
+        <td><a href="/customers/13/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/13">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Chase Kulas</td>
+        <td>my_email-3@email.com</td>
+        <td><a href="/customers/14">Show</a></td>
+        <td><a href="/customers/14/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/14">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Toney Olson</td>
+        <td>my_email-4@email.com</td>
+        <td><a href="/customers/15">Show</a></td>
+        <td><a href="/customers/15/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/15">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Tanna Kautzer MD</td>
+        <td>my_email-5@email.com</td>
+        <td><a href="/customers/16">Show</a></td>
+        <td><a href="/customers/16/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/16">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Allyn Gorczany</td>
+        <td>my_email-6@email.com</td>
+        <td><a href="/customers/17">Show</a></td>
+        <td><a href="/customers/17/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/17">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Donnell Schamberger</td>
+        <td>my_email-7@email.com</td>
+        <td><a href="/customers/18">Show</a></td>
+        <td><a href="/customers/18/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/18">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Bradly Marvin</td>
+        <td>my_email-8@email.com</td>
+        <td><a href="/customers/19">Show</a></td>
+        <td><a href="/customers/19/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/19">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Donella Blanda</td>
+        <td>my_email-9@email.com</td>
+        <td><a href="/customers/20">Show</a></td>
+        <td><a href="/customers/20/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/20">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Priscila Sporer</td>
+        <td>my_email-10@email.com</td>
+        <td><a href="/customers/21">Show</a></td>
+        <td><a href="/customers/21/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/21">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Moses Mante</td>
+        <td>my_email-11@email.com</td>
+        <td><a href="/customers/22">Show</a></td>
+        <td><a href="/customers/22/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/22">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Graig Ernser</td>
+        <td>my_email-1@email.com</td>
+        <td><a href="/customers/23">Show</a></td>
+        <td><a href="/customers/23/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/23">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Melisa Cartwright</td>
+        <td>my_email-2@email.com</td>
+        <td><a href="/customers/24">Show</a></td>
+        <td><a href="/customers/24/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/24">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Loreta Schulist</td>
+        <td>my_email-3@email.com</td>
+        <td><a href="/customers/25">Show</a></td>
+        <td><a href="/customers/25/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/25">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Winford Turner</td>
+        <td>my_email-4@email.com</td>
+        <td><a href="/customers/26">Show</a></td>
+        <td><a href="/customers/26/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/26">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Kaylene Jakubowski</td>
+        <td>my_email-5@email.com</td>
+        <td><a href="/customers/27">Show</a></td>
+        <td><a href="/customers/27/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/27">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Dixie Quigley PhD</td>
+        <td>my_email-6@email.com</td>
+        <td><a href="/customers/28">Show</a></td>
+        <td><a href="/customers/28/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/28">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Jerald Leuschke</td>
+        <td>my_email-7@email.com</td>
+        <td><a href="/customers/29">Show</a></td>
+        <td><a href="/customers/29/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/29">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Dewey Harvey</td>
+        <td>my_email-8@email.com</td>
+        <td><a href="/customers/30">Show</a></td>
+        <td><a href="/customers/30/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/30">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Ms. Luz VonRueden</td>
+        <td>my_email-9@email.com</td>
+        <td><a href="/customers/31">Show</a></td>
+        <td><a href="/customers/31/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/31">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Marcus Feeney PhD</td>
+        <td>my_email-10@email.com</td>
+        <td><a href="/customers/32">Show</a></td>
+        <td><a href="/customers/32/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/32">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Ronda Kautzer</td>
+        <td>my_email-11@email.com</td>
+        <td><a href="/customers/33">Show</a></td>
+        <td><a href="/customers/33/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/33">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Tona O&#39;Connell</td>
+        <td>my_email-1@email.com</td>
+        <td><a href="/customers/34">Show</a></td>
+        <td><a href="/customers/34/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/34">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Herschel Jones</td>
+        <td>my_email-2@email.com</td>
+        <td><a href="/customers/35">Show</a></td>
+        <td><a href="/customers/35/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/35">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Taylor Feil Esq.</td>
+        <td>my_email-3@email.com</td>
+        <td><a href="/customers/36">Show</a></td>
+        <td><a href="/customers/36/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/36">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Willette Wuckert</td>
+        <td>my_email-4@email.com</td>
+        <td><a href="/customers/37">Show</a></td>
+        <td><a href="/customers/37/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/37">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Lamar Runolfsdottir</td>
+        <td>my_email-5@email.com</td>
+        <td><a href="/customers/38">Show</a></td>
+        <td><a href="/customers/38/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/38">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Adam Hahn</td>
+        <td>my_email-6@email.com</td>
+        <td><a href="/customers/39">Show</a></td>
+        <td><a href="/customers/39/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/39">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Randolph Robel</td>
+        <td>my_email-7@email.com</td>
+        <td><a href="/customers/40">Show</a></td>
+        <td><a href="/customers/40/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/40">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Jeanelle Ledner</td>
+        <td>my_email-8@email.com</td>
+        <td><a href="/customers/41">Show</a></td>
+        <td><a href="/customers/41/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/41">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Shavonne McKenzie</td>
+        <td>my_email-9@email.com</td>
+        <td><a href="/customers/42">Show</a></td>
+        <td><a href="/customers/42/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/42">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Dr. Cristal Hyatt</td>
+        <td>my_email-10@email.com</td>
+        <td><a href="/customers/43">Show</a></td>
+        <td><a href="/customers/43/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/43">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Chuck Hettinger</td>
+        <td>my_email-11@email.com</td>
+        <td><a href="/customers/44">Show</a></td>
+        <td><a href="/customers/44/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/44">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Thaddeus Gerhold</td>
+        <td>my_email-1@email.com</td>
+        <td><a href="/customers/45">Show</a></td>
+        <td><a href="/customers/45/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/45">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Del Schoen DVM</td>
+        <td>my_email-2@email.com</td>
+        <td><a href="/customers/46">Show</a></td>
+        <td><a href="/customers/46/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/46">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Sen. Clinton Kling</td>
+        <td>my_email-3@email.com</td>
+        <td><a href="/customers/47">Show</a></td>
+        <td><a href="/customers/47/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/47">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Dudley Williamson</td>
+        <td>my_email-4@email.com</td>
+        <td><a href="/customers/48">Show</a></td>
+        <td><a href="/customers/48/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/48">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Jorge Walter</td>
+        <td>my_email-5@email.com</td>
+        <td><a href="/customers/49">Show</a></td>
+        <td><a href="/customers/49/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/49">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Cyrus Johnston</td>
+        <td>my_email-6@email.com</td>
+        <td><a href="/customers/50">Show</a></td>
+        <td><a href="/customers/50/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/50">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Bryan Schroeder</td>
+        <td>my_email-7@email.com</td>
+        <td><a href="/customers/51">Show</a></td>
+        <td><a href="/customers/51/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/51">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Malcolm Harber II</td>
+        <td>my_email-8@email.com</td>
+        <td><a href="/customers/52">Show</a></td>
+        <td><a href="/customers/52/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/52">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Leroy Doyle I</td>
+        <td>my_email-9@email.com</td>
+        <td><a href="/customers/53">Show</a></td>
+        <td><a href="/customers/53/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/53">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Fr. Reinaldo Schmidt</td>
+        <td>my_email-10@email.com</td>
+        <td><a href="/customers/54">Show</a></td>
+        <td><a href="/customers/54/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/54">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Rep. Mona Hagenes</td>
+        <td>my_email-11@email.com</td>
+        <td><a href="/customers/55">Show</a></td>
+        <td><a href="/customers/55/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/55">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Karla Jones</td>
+        <td>my_email-1@email.com</td>
+        <td><a href="/customers/56">Show</a></td>
+        <td><a href="/customers/56/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/56">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Violeta Rogahn</td>
+        <td>my_email-2@email.com</td>
+        <td><a href="/customers/57">Show</a></td>
+        <td><a href="/customers/57/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/57">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Ms. Corazon Rogahn</td>
+        <td>my_email-3@email.com</td>
+        <td><a href="/customers/58">Show</a></td>
+        <td><a href="/customers/58/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/58">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Jame Price VM</td>
+        <td>my_email-4@email.com</td>
+        <td><a href="/customers/59">Show</a></td>
+        <td><a href="/customers/59/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/59">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Lino Bashirian JD</td>
+        <td>my_email-5@email.com</td>
+        <td><a href="/customers/60">Show</a></td>
+        <td><a href="/customers/60/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/60">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Katerine Walter</td>
+        <td>my_email-6@email.com</td>
+        <td><a href="/customers/61">Show</a></td>
+        <td><a href="/customers/61/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/61">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Geraldo Little DDS</td>
+        <td>my_email-7@email.com</td>
+        <td><a href="/customers/62">Show</a></td>
+        <td><a href="/customers/62/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/62">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Aiko Batz</td>
+        <td>my_email-8@email.com</td>
+        <td><a href="/customers/63">Show</a></td>
+        <td><a href="/customers/63/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/63">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Karima Koepp</td>
+        <td>my_email-9@email.com</td>
+        <td><a href="/customers/64">Show</a></td>
+        <td><a href="/customers/64/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/64">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Lionel Borer</td>
+        <td>my_email-10@email.com</td>
+        <td><a href="/customers/65">Show</a></td>
+        <td><a href="/customers/65/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/65">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Wilmer Larson</td>
+        <td>my_email-11@email.com</td>
+        <td><a href="/customers/66">Show</a></td>
+        <td><a href="/customers/66/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/customers/66">Destroy</a></td>
+      </tr>
+  </tbody>
+</table>
+
+<br>
+
+<a href="/customers/new">New Customer</a>
+
+  </body>
+</html>
